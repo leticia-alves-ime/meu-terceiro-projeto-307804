@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logado</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <h1 class="cabecalho_titulo">Contatos</h1>
+            <nav class="cabecalho_nav">
+                <a class="cabecalho_nav__link" href="#">Home</a>
+                <div class="cabecalho_dropdown">
+                    <button class="cabecalho_nav__link___login" ><img class="foto_perfil"  src="avatar.png" alt="foto de perfil"></button>
+                
+                    <div class="cabecalho_dropdown__conteudo">
+                        <h2 class="seunome">Usuário</h2>
+                        <h3 class="seuemail">usuario@email.com</h3>
+                        <h3 class="logout"><a href="index.html">Sair</a></h3>
+                    </div>
+                </div>
+            </nav>
+        </div>    
+    </header>
+
+    <main class="container_conta">
+        <div class="container_box">
+            <section class="dominios">
+                <h2 class="dominio">dominio.com.br</h2>
+                <div class="contatos">
+                    <p>blabla.com</p>    
+                    <p>tana@nina.com</p>
+                    <p>teste@teste.com</p>
+                </div>
+                
+            </section>
+            <section class="dominios">
+                <h2 class="dominio">dominio2.com.br</h2>
+                <div class="contatos">
+                    <p>blabla.com</p>    
+                    <p>tana@nina.com</p>
+                    <p>teste@teste.com</p>
+                </div>
+            </section>
+
+            <section class="dominios">
+                <h2 class="dominio">dominio2.com.br</h2>
+                <div class="contatos">
+                    <p>blabla.com</p>    
+                    <p>tana@nina.com</p>
+                    <p>teste@teste.com</p>
+                </div>
+            </section>
+
+            <section class="dominios">
+                <h2 class="dominio">dominio2.com.br</h2>
+                <div class="contatos">
+                    <p>blabla.com</p>    
+                    <p>tana@nina.com</p>
+                    <p>teste@teste.com</p>
+                </div>
+            </section>
+
+            <section class="dominios">
+                <h2 class="dominio">dominio2.com.br</h2>
+                <div class="contatos">
+                    <p>blabla.com</p>    
+                    <p>tana@nina.com</p>
+                    <p>teste@teste.com</p>
+                    <p>blabla.com</p>    
+                    <p>tana@nina.com</p>
+                    <p>teste@teste.com</p>
+                    <p>blabla.com</p>    
+                    <p>tana@nina.com</p>
+                    <p>teste@teste.com</p>
+                    <p>blabla.com</p>    
+                    <p>tana@nina.com</p>
+                    <p>teste@teste.com</p>
+                </div>
+            </section>
+
+            <section class="dominios">
+                <h2 class="dominio">dominio2.com.br</h2>
+                <div class="contatos">
+                    <p>blabla.com</p>    
+                    <p>tana@nina.com</p>
+                    <p>teste@teste.com</p>
+                </div>
+            </section>
+
+            <section class="dominios">
+                <h2 class="dominio">dominio2.com.br</h2>
+                <div class="contatos">
+                    <p>blabla.com</p>    
+                    <p>tana@nina.com</p>
+                    <p>teste@teste.com</p>
+                    <p>blabla.com</p>    
+                    <p>tana@nina.com</p>
+                    <p>teste@teste.com</p>
+                    <p>blabla.com</p>    
+                    <p>tana@nina.com</p>
+                    <p>teste@teste.com</p>
+                </div>
+            </section>
+        </div>
+        
+    </main>
+
+    <script>
+        let click = document.querySelector('.cabecalho_nav__link___login');
+        let list = document.querySelector('.cabecalho_dropdown__conteudo');
+        click.addEventListener("click",()=>{
+            list.classList.toggle('newlist');
+        });
+    </script>
+
+    <footer></footer>
+    
+</body>
+</html>
